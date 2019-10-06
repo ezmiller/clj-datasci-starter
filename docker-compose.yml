@@ -5,6 +5,3 @@ services:
     build: .
     volumes:
       - .:/home/jovyan/notebooks
-    ports:
-      - 8888:8888
-      - 4444:4444
